@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import unittest
-import msalign as m
+import rpalign as m
 
 def align(query, subject):
     return m.NeedlemanWunsch(query, subject).get_alignment()
